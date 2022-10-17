@@ -5,7 +5,7 @@ class Player {
     };
 
 //create the rectangular shaped body.
-rect(x,y,this.width,this.height); 
+this.body=Bodies.rectangle(260,200,20,20); 
       
 
     this.width = width;
